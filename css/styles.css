@@ -4,7 +4,7 @@
 }
 
 body { 
-    width: 100vw; 
+    
     height: 100vh; 
     margin: 0; 
    
@@ -14,7 +14,7 @@ body {
 
     }
 
-header{
+.header1{
 
     
     text-align: center;
@@ -23,7 +23,37 @@ header{
     
     
     
+    
 }
+
+.header2{
+
+    padding-top: 2%;
+    text-align: center;
+    
+
+
+}
+
+#recipeImage{
+
+    width: 40%;
+}
+
+.description{
+
+
+    
+    text-align: justify;
+    margin: 2%;
+
+}
+
+main{
+
+    padding: 2%;
+}
+
 
 
 header>h1{
@@ -48,7 +78,6 @@ main>div{
     
     
 }
-
 
 
 
@@ -77,6 +106,24 @@ main>div{
     font-size: 1.5rem;
     padding: 3rem;
 
+}
+
+#ingredients{
+  
+    
+    padding-left: 1.5%;
+}
+
+#steps{
+
+    padding-left: 2.5%;
+
+}
+
+#ingredients>li,#steps>li{
+    
+    padding-bottom: 0.5%;
+    
 }
 
 #lista>li{
